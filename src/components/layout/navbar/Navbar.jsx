@@ -1,6 +1,6 @@
 import "./navbar.css";
-import { FiShoppingCart } from "react-icons/fi";
 import logo from "../../../assets/img/logo.jpg";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
 export const Navbar = () => {
   return (
@@ -23,7 +23,9 @@ export const Navbar = () => {
         </ul>
         <div className="menu-icon"></div>
       </nav>
-      <FiShoppingCart />
+      <ixonbutton>
+        <AddShoppingCartIcon />
+      </ixonbutton>
     </div>
   );
 };
