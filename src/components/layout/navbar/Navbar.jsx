@@ -1,6 +1,7 @@
 import "./navbar.css";
 import logo from "../../../assets/img/logo.jpg";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import { Home } from "@mui/icons-material";
 
 export const Navbar = () => {
   return (
@@ -23,10 +24,9 @@ export const Navbar = () => {
         </ul>
         <div className="menu-icon"></div>
       </nav>
-      <iconbutton className="Carrito-Compra">
-        <AddShoppingCartIcon />
-      </iconbutton>
-      <span className="cantidad-burbuja">5</span>
+      <Home style={{ color: 'white', marginRight: '30px' }} />
+      <AddShoppingCartIcon style={{ color: 'white' }} />
+      <span style={{ color: 'white', fontSize: '1.2em', height: 'auto' }}>5</span>
     </div>
   );
 };

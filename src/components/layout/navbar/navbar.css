@@ -52,31 +52,4 @@ ul a:hover {
   margin-left: auto;
   margin-right: 20px;
   position: relative;
-
-  .carrito-compra {
-    color: white;
-    background-color: #8e48cf;
-    border: none;
-    padding: 10px;
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
-  }
-
-  .carrito-compra:hover {
-    background-color: #6b3fae;
-  }
-
-  .cantidad-burbuja {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    background-color: red;
-    color: white;
-    font-size: 12px;
-    padding: 5px 10px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
