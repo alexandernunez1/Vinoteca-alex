@@ -23,9 +23,10 @@ export const Navbar = () => {
         </ul>
         <div className="menu-icon"></div>
       </nav>
-      <ixonbutton>
+      <iconbutton className="Carrito-Compra">
         <AddShoppingCartIcon />
-      </ixonbutton>
+      </iconbutton>
+      <span className="cantidad-burbuja">5</span>
     </div>
   );
 };

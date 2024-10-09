@@ -1,45 +1,82 @@
 .containernavbar {
-    background-color: #8e48cf;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px 40px;
-    list-style-type: none;
-  }
-  
-  ul a {
+  background-color: #8e48cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 40px;
+  list-style-type: none;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+
+  margin: 0 15px;
+}
+
+ul a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.contenedor-violeta {
+  background-color: #8e48cf;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+.logo-vinoteca {
+  height: 100px; /* Ajusta este valor según el tamaño deseado */
+  width: auto;
+  margin-right: 80px;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  border-radius: 50%; /* Redondea los márgenes completamente */
+  border-bottom: 3px solid #8e48cf; /* Añade un borde inferior violeta */
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 20px;
+  position: relative;
+
+  .carrito-compra {
     color: white;
-    text-decoration: none;
-    padding: 15px;
-  
-    margin: 0 15px;
-  }
-  
-  ul a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+    background-color: #8e48cf;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
   }
 
-  .contenedor-violeta {
-    background-color: #8e48cf;
-    padding: 20px;
-    margin-bottom: 70px;
+  .carrito-compra:hover {
+    background-color: #6b3fae;
   }
-  
-  .logo-vinoteca {
-    height: 100px; /* Ajusta este valor según el tamaño deseado */
-    width: auto;
-    margin-right: 80px;
+
+  .cantidad-burbuja {
     position: absolute;
-    top: 5px;
-    left: 30px;
-    border-radius: 50%; /* Redondea los márgenes completamente */
-    border-bottom: 3px solid #8e48cf; /* Añade un borde inferior violeta */
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+}
