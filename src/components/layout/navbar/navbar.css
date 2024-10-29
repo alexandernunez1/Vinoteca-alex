@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px; /* Añade más relleno al navbar */
 }
 
 ul {

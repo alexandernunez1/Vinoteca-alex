@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
 import "./card.css";
 
-export const Card = ({h3,h4}) => {
+export const Card = ({ nombre, imagen, varietalProducto, precio, id }) => {
   return (
-    <div className="contenedor-saludos">
-      <h3 className="saludoDeBienvenida">
-        BIENVENIDOS
-        <br />A LA VINOTECA MAS COMPLETA EN VARIETALES DE ARGENTINA QUEDATE Y
-        MIRA TODO LO QUE TENEMOS PARA OFRECERTE EN NUESTRO SITIO.{h3}
-      </h3>
-      <h4 className="mantenimiento">
-        ESTE SITIO ESTA EN MANTENIMIENTO, DISCULPA LAS MOLESTIAS.{h4}
-      </h4>
+    <div className="card-container">
+      <h2 className="nombre-container">{nombre}</h2>
+      <h2 className="varietal-tamaño">{varietalProducto}</h2>
+      <img className="imagen-tamaño" src={imagen} alt="" />
+      <h2>${precio}</h2>
+      <Link to={`/itemDetail/${id}`}>
+        <button className="detalles-card">Ver detalles</button>
+      </Link>
+      <button className="button-container">Agregar al carrito</button>
     </div>
   );
 };

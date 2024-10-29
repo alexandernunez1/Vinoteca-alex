@@ -1,35 +1,61 @@
-.saludoDeBienvenida {
-    color: #333;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    padding: 30px;
-    margin: 50px auto 0; /* Aumentado el margen superior */
-    max-width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100vh - 310px); /* Ajustado para compensar el nuevo margen */
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-  }
-  
-  .saludoDeBienvenida:hover {
-    transform: scale(1.02);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  .mantenimiento {
-    background-color: #8e48cf;
-    margin: 50px auto 50px; /* Aumentado el margen superior e inferior */
-    padding: 20px; /* Aumentado el padding */
-    color: white;
-    text-align: center;
-    max-width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+.card-container {
+  width: 320px; /* Agrandado el ancho para que entren 3 por línea */
+  height: 420px; /* Agrandado el alto para que entren 3 por línea */
+  margin: 40px; /* Aumentado el margen */
+  display: inline-grid;
+  place-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card-container:hover {
+  transform: translateY(-5px);
+}
+
+.nombre-container {
+  text-align: center;
+  margin: 10px;
+  order: -1;
+}
+
+.button-container {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 10px; /* Ajustado para subir un poco el botón */
+}
+
+.button-container:hover {
+  background-color: rgb(181, 14, 181);
+}
+
+.imagen-tamaño {
+  width: 60%; /* Agrandado el ancho para que entren 3 por línea */
+  height: auto;
+}
+
+.varietal-tamaño {
+  color: rgb(181, 14, 181);
+  font-size: larger;
+  font-weight: normal;
+}
+
+.detalles-card{
+  text-decoration: none;
+  color: rgb(181, 14, 181);
+  font-weight: bold;
+  cursor: pointer;
+  border: none; 
+  text-decoration: none;
+}
+
+.detalles-card:hover {
+  color: rgb(180, 61, 239);
+
+}

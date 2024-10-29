@@ -1,0 +1,18 @@
+.el-containedor {
+  width: 80%; /* Reducido el ancho para achicar el contenedor */
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); /* Añadido para crear tres filas */
+
+  justify-items: center;
+
+  gap: 60px;
+
+  background-color: rgba(255, 255, 255, 0.13);
+
+  padding-top: 20px; /* Añadido para dejar un padding entre el navbar y las card */
+}
