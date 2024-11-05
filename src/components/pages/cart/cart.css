@@ -9,21 +9,24 @@
 .tipografia-carrito {
   font-family: 'Arial', sans-serif;
   font-size: 24px; /* Agrandado a 24px */
-  color: #333;
+  color: #ffffff;
   text-align: center;
   margin: 150px;
   padding: 20px;
+  background-color: #42404079; /* Cambiado el fondo a un gris claro */
+  border-radius: 10px; /* Redondeadas las puntas */
 }
-
 .boton-carrito {
-  background-color: purple;
+  background-color: #8e48cf;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 10px; /* Reducido el padding para darle menos espacio */
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
   display: block;
   margin: auto;
-  margin-top: 10px; /* Reducido la distancia entre la tipografia-carrito y el boton-carrito */
+  margin-top: 5px; /* Reducido aún más la distancia entre la tipografia-carrito y el boton-carrito */
   text-align: center; /* Centrado el texto del botón */
+  text-decoration: none; /* Eliminado el subrayado de la letra */
+  width: 75%; /* Achicado el contenedor del botón */
 }

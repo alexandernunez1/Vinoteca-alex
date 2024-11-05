@@ -23,19 +23,19 @@ const Checkout = () => {
       <form onSubmit={funcionDelFormulario}>
         <input
           type="text"
-          placeholder="jorge duje"
+          placeholder="alexander nuñez"
           name="name"
           onChange={capturarInfo}
         />
         <input
           type="email"
-          placeholder="jorge@gmail.com"
+          placeholder="alexandernuñez@gmail.com"
           name="email"
           onChange={capturarInfo}
         />
         <input
           type="text"
-          placeholder="1155444878"
+          placeholder="1188997711"
           name="phoneNumber"
           onChange={capturarInfo}
         />

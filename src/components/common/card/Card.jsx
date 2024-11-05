@@ -11,7 +11,6 @@ export const Card = ({ nombre, imagen, varietalProducto, precio, id }) => {
       <Link to={`/itemDetail/${id}`}>
         <button className="detalles-card">Ver detalles</button>
       </Link>
-      <button className="button-container">Agregar al carrito</button>
     </div>
   );
 };
