@@ -5,7 +5,8 @@ import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
 import { Skeleton } from "@mui/material";
 import { db } from "../../../firebaseconfiguracion";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, query, where, addDoc } from "firebase/firestore";
+import { products } from "../../../../productos";
 
 export const ItemListContainer = () => {
   const { varietal } = useParams();
@@ -13,14 +14,18 @@ export const ItemListContainer = () => {
   const [misProductos, setMisProductos] = useState([]);
 
   useEffect(() => {
-    const productsCollection = collection(db, "product");
+    const productsBase = collection(db, "products");
 
-    getDocs(productsCollection).then((res) => {
-      let arrayEntendible = res.docs.map((doc) => {
+    let docsRef = productsBase;
+    if (varietal) {
+      docsRef = query(productsBase, where("varietalproducto", "==", varietal));
+    }
+    getDocs(docsRef).then((res) => {
+      let arrayDocumentos = res.docs.map((doc) => {
         return { ...doc.data(), id: doc.id };
       });
 
-      setMisProductos(arrayEntendible);
+      setMisProductos(arrayDocumentos);
     });
   }, [varietal]);
 
@@ -34,9 +39,16 @@ export const ItemListContainer = () => {
     );
   }
 
+  const cargarProductos = () => {
+    const productsBase = collection(db, "products");
+    products.forEach((products) => {
+      addDoc(productsBase, products);
+    });
+  };
+
   return (
     <div>
-      <h2>Lista de productos</h2>
+      <h2 className="Lista-de-productos">Lista de productos</h2>
       <ItemList misProductos={misProductos} />
     </div>
   );

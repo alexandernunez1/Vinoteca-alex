@@ -1,30 +1,6 @@
 export const products = [
   {
-    id: "1",
-    nombre: "Enrique Foster Reserva",
-    precio: 40000,
-    varietalproducto: "Malbec",
-    stock: 20,
-    imagen:
-      "https://res.cloudinary.com/ditndkydz/image/upload/v1729210312/1_lz1vau.png",
-    detalles:
-      "Malbec 2023 Singular. Rojo violáceo intenso. Aromáticamente frutal con buen caudal de ciruelas frescas, moras con dejos herbales y fondo floral. Paladar carnoso con rica jugosidad, taninos firmes de textura amable que realzan sabor hacía un final largo y fragante",
-  },
-
-  {
-    id: "2",
-    nombre: "Enrique Foster Reserva",
-    precio: 83000,
-    varietalproducto: "Cabernet Sauvignon",
-    stock: 45,
-    imagen:
-      "https://res.cloudinary.com/ditndkydz/image/upload/v1729210312/1_lz1vau.png",
-    detalles:
-      "Malbec 2023 Singular. Rojo violáceo intenso. Aromáticamente frutal con buen caudal de ciruelas frescas y moras con dejos herbales y fondo floral. Paladar carnoso con rica jugosidad, taninos firmes de textura amable que realzan sabor hacía un final largo y fragante",
-  },
-
-  {
-    id: "3",
+    //id: "3",
     nombre: "Enrique Foster Reserva",
     precio: 17000,
     varietalproducto: "Pinot Noir",
@@ -36,7 +12,7 @@ export const products = [
   },
 
   {
-    id: "4",
+    //id: "4",
     nombre: "Enrique Foster Reserva",
     precio: 94000,
     varietalproducto: "Malbec",
@@ -48,7 +24,7 @@ export const products = [
   },
 
   {
-    id: "5",
+    //id: "5",
     nombre: "Enrique Foster Reserva",
     precio: 62000,
     varietalproducto: "Cabernet Sauvignon",
@@ -60,7 +36,7 @@ export const products = [
   },
 
   {
-    id: "6",
+    //id: "6",
     nombre: "Enrique Foster Reserva",
     precio: 36000,
     varietalproducto: "Pinot Noir",
@@ -72,7 +48,7 @@ export const products = [
   },
 
   {
-    id: "7",
+    //id: "7",
     nombre: "Enrique Foster Reserva",
     precio: 12000,
     varietalproducto: "Syrah",
@@ -84,7 +60,7 @@ export const products = [
   },
 
   {
-    id: "8",
+    //id: "8",
     nombre: "Enrique Foster Reserva",
     precio: 99000,
     varietalproducto: "Malbec",
@@ -96,7 +72,7 @@ export const products = [
   },
 
   {
-    id: "9",
+    //id: "9",
     nombre: "Enrique Foster Reserva",
     precio: 78000,
     varietalproducto: "Cabernet Sauvignon",
@@ -108,7 +84,7 @@ export const products = [
   },
 
   {
-    id: "10",
+    //id: "10",
     nombre: "Enrique Foster Reserva",
     precio: 63000,
     varietalproducto: "Pinot Noir",
@@ -120,7 +96,7 @@ export const products = [
   },
 
   {
-    id: "11",
+    //id: "11",
     nombre: "Enrique Foster Reserva",
     precio: 43000,
     varietalproducto: "Malbec",
@@ -132,7 +108,7 @@ export const products = [
   },
 
   {
-    id: "12",
+    //id: "12",
     nombre: "Enrique Foster Reserva",
     precio: 26000,
     varietalproducto: "Cabernet Sauvignon",
@@ -144,7 +120,7 @@ export const products = [
   },
 
   {
-    id: "13",
+    //id: "13",
     nombre: "Enrique Foster Reserva",
     precio: 100000,
     varietalproducto: "Pinot Noir",
@@ -156,7 +132,7 @@ export const products = [
   },
 
   {
-    id: "14",
+    //id: "14",
     nombre: "Enrique Foster Reserva",
     precio: 68000,
     varietalproducto: "Syrah",
@@ -168,7 +144,7 @@ export const products = [
   },
 
   {
-    id: "15",
+    //id: "15",
     nombre: "Enrique Foster Reserva",
     precio: 97000,
     varietalproducto: "Malbec",
@@ -180,7 +156,7 @@ export const products = [
   },
 
   {
-    id: "16",
+    //id: "16",
     nombre: "Enrique Foster Reserva",
     precio: 90000,
     varietalproducto: "Cabernet Sauvignon",
@@ -192,7 +168,7 @@ export const products = [
   },
 
   {
-    id: "17",
+    //id: "17",
     nombre: "Enrique Foster Reserva",
     precio: 10000,
     varietalproducto: "Pinot Noir",
@@ -204,7 +180,7 @@ export const products = [
   },
 
   {
-    id: "18",
+    //id: "18",
     nombre: "Enrique Foster Reserva",
     precio: 47000,
     varietalproducto: "Malbec",
@@ -216,7 +192,7 @@ export const products = [
   },
 
   {
-    id: "19",
+    //id: "19",
     nombre: "Enrique Foster Reserva",
     precio: 39000,
     varietalproducto: "Cabernet Sauvignon",
@@ -228,7 +204,7 @@ export const products = [
   },
 
   {
-    id: "20",
+    //id: "20",
     nombre: "Enrique Foster Reserva",
     precio: 18000,
     varietalproducto: "Pinot Noir",
@@ -240,7 +216,7 @@ export const products = [
   },
 
   {
-    id: "21",
+    //id: "21",
     nombre: "Enrique Foster Reserva",
     precio: 33000,
     varietalproducto: "Syrah",
@@ -252,7 +228,7 @@ export const products = [
   },
 
   {
-    id: "22",
+    //id: "22",
     nombre: "Enrique Foster Reserva",
     precio: 47000,
     varietalproducto: "Malbec",
@@ -264,7 +240,7 @@ export const products = [
   },
 
   {
-    id: "23",
+    // id: "23",
     nombre: "Enrique Foster Reserva",
     precio: 55000,
     varietalproducto: "Cabernet Sauvignon",
@@ -276,7 +252,7 @@ export const products = [
   },
 
   {
-    id: "24",
+    //id: "24",
     nombre: "Enrique Foster Reserva",
     precio: 62000,
     varietalproducto: "Pinot Noir",
@@ -288,7 +264,7 @@ export const products = [
   },
 
   {
-    id: "25",
+    //id: "25",
     nombre: "Enrique Foster Reserva",
     precio: 80000,
     varietalproducto: "Malbec",
@@ -300,7 +276,7 @@ export const products = [
   },
 
   {
-    id: "26",
+    //id: "26",
     nombre: "Enrique Foster Reserva",
     precio: 15000,
     varietalproducto: "Cabernet Sauvignon",
@@ -312,7 +288,7 @@ export const products = [
   },
 
   {
-    id: "27",
+    //id: "27",
     nombre: "Enrique Foster Reserva",
     precio: 7000,
     varietalproducto: "Pinot Noir",
@@ -324,7 +300,7 @@ export const products = [
   },
 
   {
-    id: "28",
+    //id: "28",
     nombre: "Enrique Foster Reserva",
     precio: 16000,
     varietalproducto: "Syrah",
@@ -336,7 +312,7 @@ export const products = [
   },
 
   {
-    id: "29",
+    //id: "29",
     nombre: "Enrique Foster Reserva",
     precio: 12000,
     varietalproducto: "Syrah",
@@ -348,7 +324,7 @@ export const products = [
   },
 
   {
-    id: "30",
+    //id: "30",
     nombre: "Enrique Foster Reserva",
     precio: 8000,
     varietalproducto: "Bonarda",

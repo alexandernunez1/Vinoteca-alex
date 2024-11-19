@@ -16,3 +16,11 @@
 
   padding-top: 20px; /* Añadido para dejar un padding entre el navbar y las card */
 }
+
+.Lista-de-productos {
+  background-color: #8e48cf; /* Fondo gris */
+  color: #ffffff; /* Letras blancas */
+  padding: 10px; /* Añadido padding */
+  margin: 20px; /* Añadido margin */
+  text-align: center; /* Letra centralizada */
+}
