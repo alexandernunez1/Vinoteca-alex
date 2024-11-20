@@ -1,0 +1,53 @@
+.Checkout-css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px; /* Añadido padding para agrandar la caja */
+}
+
+.Formulario-check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Cambiado para que los elementos estén ordenados uno abajo del otro */
+    padding: 80px; /* Aumentado el padding para agrandar aún más el formulario */
+    margin: 80px; /* Aumentado el margen para agrandar aún más el formulario */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #8e48cf;
+    gap: 20px; /* Añadido para separar cada input */
+    color: #8e48cf; /* Cambiado el color del texto a violeta */
+}
+
+.order-css {
+  color: #8e48cf;
+  text-align: center;
+  border: 1px solid #8e48cf;
+  padding: 115px;
+  margin: 80px 350px;
+  border-radius: 10px;
+}
+
+.order-css:hover {
+  background-color: #ffffff; /* Color de fondo al pasar el mouse */
+  transform: translateY(-5px); /* Efecto de elevación */
+}
+.comprar-check, .cancelar-check{
+    display: flex;
+    justify-content: center; /* Centrado el contenido */
+    width: 50%;
+}
+
+.comprar-check:hover, .cancelar-check:hover{
+    background-color: #8e48cf; /* Color de fondo al pasar el mouse */
+    transform: translateY(-5px); /* Efecto de elevación */
+}
+
+.formulario-envio{
+    background-color: #8e48cf; /* Fondo gris */
+    color: #ffffff; /* Letras blancas */
+    padding: 10px; /* Añadido padding */
+    margin: 0px; /* Añadido margin */
+    text-align: center; /* Letra centralizada */
+    border-radius: 10px; /* Redondear los bordes */
+}

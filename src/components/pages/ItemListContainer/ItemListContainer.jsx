@@ -48,7 +48,7 @@ export const ItemListContainer = () => {
 
   return (
     <div>
-      <h2 className="Lista-de-productos">Lista de productos</h2>
+      <h2 className="Lista-de-productos">Tienda de productos</h2>
       <ItemList misProductos={misProductos} />
     </div>
   );

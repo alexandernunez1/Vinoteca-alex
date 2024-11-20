@@ -2,6 +2,7 @@ import { CartContext } from "../../context/CartContext";
 import "./cart.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
+import "./carContainer.css";
 
 const CartContainer = () => {
   const { cart, limpiarCarrito, removeById, getTotalAmount } =
@@ -24,32 +25,36 @@ const CartContainer = () => {
             <h3>{product.quantity}</h3>
             <img src={`imagen`} alt="" />
             <h5>{product.varietalproducto}</h5>
-            <button onClick={() => removeById(product.id)}>Eliminar</button>
+            <button className="boton-contenedorT" onClick={() => removeById(product.id)}>Eliminar</button>
           </div>
         );
       })}
 
-      {cart.length > 0 && (
-        <h2 style={{ color: cart.length > 0 ? "black" : "blueviolet" }}>
-          El total a pagar es: {totalEnElCarrito}
-        </h2>
-      )}
-
-      {cart.length > 0 && (
-        <button onClick={limpiarCarrito}> Limpiar Carrito </button>
-      )}
-
-      {cart.length < 1 && (
+{cart.length < 1 && (
         <Link to="/" className="boton-carrito">
           TIENDA
         </Link>
       )}
 
+      <div className="botones-cartcontainer">
       {cart.length > 0 && (
-        <Link to="/checkout" style={{ color: "black" }}>
+        <h2 className="total-carrito-car" style={{ color: cart.length > 0 ? "black" : "blueviolet" }}>
+          El total a pagar es: {totalEnElCarrito}
+        </h2>
+      )}
+
+      {cart.length > 0 && (
+        <button className="limpiar-carrito-cartcontainer" onClick={limpiarCarrito}> Limpiar Carrito </button>
+      )}
+
+
+
+      {cart.length > 0 && (
+        <Link className="finalizar-carrito-carcontainer" to="/checkout" style={{ color: "black" }}>
           Finalizar compra
         </Link>
       )}
+      </div>
     </div>
   );
 };

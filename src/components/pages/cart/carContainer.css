@@ -9,3 +9,74 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+.contenedorT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #8e48cf;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.boton-contenedorT{
+    background-color: #8e48cf; /* Color de fondo violeta */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Padding horizontal y vertical */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.2s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+.boton-contenedorT:hover{
+    background-color: #7a3baf; /* Color de fondo más oscuro al pasar el mouse */
+}
+.total-carrito-car{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.total-carrito-car:hover{
+    color: #8e48cf; /* Color violeta al pasar el mouse */
+    text-shadow: 0 0 10px #8e48cf; /* Sombra de texto violeta al pasar el mouse */
+}
+
+.limpiar-carrito-cartcontainer{
+    background-color: #f44336; /* Color de fondo rojo */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Padding horizontal y vertical */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.2s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+.limpiar-carrito-cartcontainer:hover{
+    background-color: #d62828; /* Color de fondo más oscuro al pasar el mouse */
+}
+
+.finalizar-carrito-carcontainer {
+    background-color: #09872d; /* Color de fondo rojo */
+    color: white; /* Letras blancas */
+    padding: 10px 20px; /* Añadido padding horizontal y vertical */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.2s ease; /
+    
+}
+
+.finalizar-carrito-carcontainer:hover{
+    background-color: #09872d; /* Color de fondo más oscuro al pasar el mouse */
+}
+
+.botones-cartcontainer{
+    
+}
